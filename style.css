@@ -1,0 +1,198 @@
+#feedpage {
+    background-color:rgb(206, 246, 254);
+}
+.wrapper{
+    width: 100%;
+    margin:auto;
+}
+header{
+    width: 100%;
+    height: 40%;
+    background-color:rgb(0, 37, 76);
+    position: fixed;
+}
+nav a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color:rgb(206, 246, 254);
+    padding: 1px 10px;
+    margin: 0 3px;
+    float: right;
+}
+nav a:hover{
+background:rgb(206, 246, 254);
+color:rgb(0, 37, 76);
+}
+.banner-area{
+     background-image:url(img/diabetesbig.png);
+        background-size: cover;
+        background-position: center center;
+        top:100px;
+        height:50vh;
+        width: 100%;
+        position:fixed;
+}
+.banner-areados{
+        background-image:url(img/diabetesbig.png);
+        background-size: cover;
+        background-position: center center;
+        top:100px;
+        height:50vh;
+        width: 100%;
+        position:fixed;
+}
+.banner-area h2{
+    padding-top:8%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: rgb(53, 102, 104);
+    position: relative;
+    top: 20px;
+}
+.banner-areados h2{
+    padding-top:10%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: rgb(53, 102, 104);
+    position: relative;
+    top: 20px;
+}
+.content-area{
+    width:100%;
+    height:100%;
+    position: relative;
+    background: white;
+    top: 600px;
+}
+.content-area2{
+    width:100%;
+    height:100%;
+    position: relative;
+    background-image: url(img/diabetes.jpg);
+    top: 150px;
+}
+.content-area h2{
+    font-size: 40px;
+    margin:0;
+    padding-top:3px;
+    letter-spacing: 4px;
+}
+.content-area p{
+    padding:2% 0;
+    line-height: 30px;
+    text-align: center;
+}
+.wrapper h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 37, 76);
+    font-size: 60px;
+    text-align: center;
+    padding-top:5%;
+}
+.wrapper p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 37, 76);
+    font-size: 25px;
+    line-height: 2.5;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.wrapper h3{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 37, 76);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5%;
+}
+blockquote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(53, 102, 104);
+    font-size: 40px;
+    text-align: center;
+}
+#logo{
+   position:absolute;
+    left:10px;
+    top:0px;
+    margin: 0px 15px 15px 0px;
+    height: 30%;
+    width: 10%;
+}
+nav{
+    float:right;
+    line-height: 100px;
+}
+#baby{
+    width:40%;
+    padding-left: 30%;
+
+}
+h4{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 37, 76);
+    font-size: 20px;
+   text-align: center;
+   
+}
+.container{
+    padding-left: 1px;
+    padding-right: 1px;
+    display: flex;
+    display: row;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+h3{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 37, 76);
+    font-size: 70px;
+   text-align: center;
+   padding-top:7%;
+}
+img{
+    width: 350px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:lightblue;
+    padding-top: 10%;
+}
+#captions{
+     display: flex;
+    text-align: center;
+   background-color: lightblue;
+}
+ul{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 37, 76);
+    font-size: 25px;
+    line-height: 2.5;
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+#timestamp{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+
+background-color:rgb(0, 37, 76);
+}
+b{
+    font-size: 30px;
+}
+small{
+    font-size: 25px;
+}
